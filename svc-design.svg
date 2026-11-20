@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-hidden="true"><defs>
+<linearGradient id="gs5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#00D084"/></linearGradient>
+<linearGradient id="bs5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087FFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+<linearGradient id="ps5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2A33"/><stop offset="1" stop-color="#071A21"/></linearGradient>
+<radialGradient id="rs5" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#39FF14" stop-opacity=".35"/><stop offset="1" stop-color="#39FF14" stop-opacity="0"/></radialGradient>
+<radialGradient id="bgs5" cx=".3" cy="1" r="1.1"><stop offset="0" stop-color="#0A3A1C"/><stop offset=".55" stop-color="#07131A"/><stop offset="1" stop-color="#03080B"/></radialGradient>
+<filter id="fs5" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grids5" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#39FF14" stroke-opacity=".07"/></pattern>
+</defs><ellipse cx="320" cy="210" rx="230" ry="150" fill="url(#rs5)"/><rect x="140" y="70" width="330" height="250" rx="16" fill="url(#ps5)" stroke="#39FF14" stroke-opacity=".55" stroke-width="1.5"/><rect x="160" y="92" width="86" height="208" rx="10" fill="#39FF14" fill-opacity=".1" stroke="#39FF14" stroke-opacity=".35"/><rect x="262" y="92" width="190" height="86" rx="10" fill="url(#bs5)" fill-opacity=".7"/><rect x="262" y="192" width="88" height="108" rx="10" fill="#39FF14" fill-opacity=".18" stroke="#39FF14" stroke-opacity=".5"/><rect x="364" y="192" width="88" height="108" rx="10" fill="#39FF14" fill-opacity=".1" stroke="#39FF14" stroke-opacity=".35"/>
+  <path d="M430 230l8 66 18-22 26 40 12-6-26-40 28-4z" fill="url(#gs5)" stroke="#03080B" stroke-width="2" filter="url(#fs5)"/></svg>

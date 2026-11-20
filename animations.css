@@ -1,0 +1,28 @@
+/* ==========================================================
+   IT PARK SOFTWARE — animations.css
+   ========================================================== */
+@keyframes floatY { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+@keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+@keyframes pulseDot { 0% { box-shadow: 0 0 0 0 rgba(57, 255, 20, 0.6); } 70% { box-shadow: 0 0 0 10px rgba(57, 255, 20, 0); } 100% { box-shadow: 0 0 0 0 rgba(57, 255, 20, 0); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.float { animation: floatY 6s ease-in-out infinite; }
+.float--d1 { animation-duration: 7s; animation-delay: -1.5s; }
+.float--d2 { animation-duration: 8s; animation-delay: -3s; }
+.badge .dot { animation: pulseDot 2.4s infinite; }
+.text-accent { background-size: 200% 100%; animation: gradientShift 8s ease infinite; }
+.btn--primary { background-size: 200% 100%; }
+.btn--primary:hover { animation: gradientShift 2.4s linear infinite; }
+.spinner { width: 18px; height: 18px; border: 2px solid rgba(3, 20, 10, 0.3); border-top-color: #03140a; border-radius: 50%; animation: spin 0.7s linear infinite; }
+
+/* Reveal fallback (used only when GSAP is unavailable; class is added by JS) */
+.reveal-pre { opacity: 0; transform: translateY(26px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
+.reveal-pre.is-visible { opacity: 1; transform: none; }
+
+/* Hover polish */
+.social, .filter, .page-btn, .partner { will-change: transform; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+  .reveal-pre { opacity: 1; transform: none; }
+}

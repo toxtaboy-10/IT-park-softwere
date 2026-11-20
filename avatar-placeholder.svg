@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-hidden="true"><defs>
+<linearGradient id="gv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#00D084"/></linearGradient>
+<linearGradient id="bv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087FFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+<linearGradient id="pv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2A33"/><stop offset="1" stop-color="#071A21"/></linearGradient>
+<radialGradient id="rv" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#39FF14" stop-opacity=".35"/><stop offset="1" stop-color="#39FF14" stop-opacity="0"/></radialGradient>
+<radialGradient id="bgv" cx=".3" cy="1" r="1.1"><stop offset="0" stop-color="#0A3A1C"/><stop offset=".55" stop-color="#07131A"/><stop offset="1" stop-color="#03080B"/></radialGradient>
+<filter id="fv" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="gridv" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#39FF14" stroke-opacity=".07"/></pattern>
+</defs><rect width="400" height="400" fill="url(#bgv)"/><rect width="400" height="400" fill="url(#gridv)"/><ellipse cx="200" cy="230" rx="170" ry="150" fill="url(#rv)"/><circle cx="200" cy="160" r="58" fill="url(#pv)" stroke="url(#gv)" stroke-width="3"/><path d="M82 360c0-70 52-118 118-118s118 48 118 118z" fill="url(#pv)" stroke="url(#gv)" stroke-width="3"/></svg>

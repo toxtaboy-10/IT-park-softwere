@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt — IT PARK SOFTWARE</title>
+<meta name="description" content="IT PARK SOFTWARE bilan bog‘laning: telefon, email, Telegram va aloqa formasi.">
+<meta name="theme-color" content="#03080B">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IT PARK SOFTWARE">
+<meta property="og:title" content="Kontakt — IT PARK SOFTWARE">
+<meta property="og:description" content="IT PARK SOFTWARE bilan bog‘laning: telefon, email, Telegram va aloqa formasi.">
+<meta property="og:image" content="assets/images/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kontakt — IT PARK SOFTWARE">
+<meta name="twitter:description" content="IT PARK SOFTWARE bilan bog‘laning: telefon, email, Telegram va aloqa formasi.">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="contact">
+<a class="skip-link" href="#main" data-i18n="skip">Asosiy kontentga o‘tish</a>
+<div id="site-header"></div>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html" data-i18n="common.home">Bosh sahifa</a><i data-icon="chevronRight"></i><span data-i18n="nav.contact">Kontakt</span></nav>
+    <h1 data-i18n="contact.hero.title">Loyihangizni muhokama qilamiz</h1>
+    <p data-i18n="contact.hero.text">Savolingiz yoki g‘oyangiz bormi? Formani to‘ldiring yoki Telegram orqali yozing.</p>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="contact-grid">
+      <div data-reveal>
+        <div class="contact-list">
+          <a class="card contact-item" data-contact="phone"><span class="ico"><i data-icon="phone"></i></span><div><small data-i18n="contact.phone">Telefon</small><strong></strong></div></a>
+          <a class="card contact-item" data-contact="email"><span class="ico"><i data-icon="mail"></i></span><div><small data-i18n="contact.email">Email</small><strong></strong></div></a>
+          <a class="card contact-item" data-contact="address"><span class="ico"><i data-icon="mapPin"></i></span><div><small data-i18n="contact.address">Manzil</small><strong></strong></div></a>
+          <a class="card contact-item" data-contact="telegram"><span class="ico"><i data-icon="send"></i></span><div><small data-i18n="contact.telegram">Telegram</small><strong></strong></div></a>
+          <a class="card contact-item" data-contact="instagram"><span class="ico"><i data-icon="instagram"></i></span><div><small data-i18n="contact.instagram">Instagram</small><strong></strong></div></a>
+        </div>
+        <h3 style="margin:28px 0 0;font-size:1rem" data-i18n="contact.social">Ijtimoiy tarmoqlar</h3>
+        <div class="socials" id="contact-socials"></div>
+      </div>
+      <div class="card form-card" data-reveal>
+        <h2 data-i18n="contact.form.title">Xabar yuborish</h2>
+        <p data-i18n="contact.form.lead">Barcha maydonlarni to‘ldiring.</p>
+        <form class="form" id="contact-form" novalidate>
+          <div class="form__row">
+            <div class="field"><label for="cf-name"><span data-i18n="contact.name">Ism</span><span class="req" aria-hidden="true">*</span></label><input class="input" id="cf-name" name="name" data-rule="name" autocomplete="name" data-i18n-placeholder="contact.namePh" aria-describedby="cf-name-err"><div class="field__error" id="cf-name-err" aria-live="polite"></div></div>
+            <div class="field"><label for="cf-email"><span data-i18n="contact.emailLabel">Email</span><span class="req" aria-hidden="true">*</span></label><input class="input" id="cf-email" name="email" type="email" data-rule="email" autocomplete="email" placeholder="email@example.com" aria-describedby="cf-email-err"><div class="field__error" id="cf-email-err" aria-live="polite"></div></div>
+          </div>
+          <div class="form__row">
+            <div class="field"><label for="cf-phone"><span data-i18n="contact.phoneLabel">Telefon</span><span class="req" aria-hidden="true">*</span></label><input class="input" id="cf-phone" name="phone" type="tel" data-rule="phone" autocomplete="tel" inputmode="tel" placeholder="+998 90 123 45 67" aria-describedby="cf-phone-err"><div class="field__error" id="cf-phone-err" aria-live="polite"></div></div>
+            <div class="field"><label for="cf-subject"><span data-i18n="contact.subject">Mavzu</span><span class="req" aria-hidden="true">*</span></label><input class="input" id="cf-subject" name="subject" data-rule="subject" data-i18n-placeholder="contact.subjectPh" aria-describedby="cf-subject-err"><div class="field__error" id="cf-subject-err" aria-live="polite"></div></div>
+          </div>
+          <div class="field"><label for="cf-message"><span data-i18n="contact.message">Xabar</span><span class="req" aria-hidden="true">*</span></label><textarea class="input" id="cf-message" name="message" data-rule="message" data-i18n-placeholder="contact.messagePh" aria-describedby="cf-message-err"></textarea><div class="field__error" id="cf-message-err" aria-live="polite"></div></div>
+          <div class="form__status" role="status" aria-live="polite"></div>
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit"><span data-i18n="contact.send">Xabarni yuborish</span><i data-icon="arrowRight"></i></button>
+            <a class="btn btn--telegram" data-telegram href="#"><i data-icon="send"></i><span data-i18n="common.telegram">Telegram orqali</span></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="map-box" id="map-box" style="margin-top:28px" data-reveal>
+      <div><div class="map-box__pin"><i data-icon="mapPin"></i></div><h3 data-i18n="contact.map.title">Xarita</h3><p style="max-width:48ch;margin:8px auto 0" data-i18n="contact.map.text">Google Maps xaritasi shu yerda ko‘rsatiladi. Havolani js/config.js faylidagi mapEmbedUrl ga kiriting.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/data/translations.js"></script>
+<script src="js/data/services-data.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/language.js"></script>
+<script src="js/components.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

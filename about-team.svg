@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true"><defs>
+<linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#00D084"/></linearGradient>
+<linearGradient id="ba" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087FFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+<linearGradient id="pa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2A33"/><stop offset="1" stop-color="#071A21"/></linearGradient>
+<radialGradient id="ra" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#39FF14" stop-opacity=".35"/><stop offset="1" stop-color="#39FF14" stop-opacity="0"/></radialGradient>
+<radialGradient id="bga" cx=".3" cy="1" r="1.1"><stop offset="0" stop-color="#0A3A1C"/><stop offset=".55" stop-color="#07131A"/><stop offset="1" stop-color="#03080B"/></radialGradient>
+<filter id="fa" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grida" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#39FF14" stroke-opacity=".07"/></pattern>
+</defs><rect width="640" height="520" fill="url(#bga)"/><rect width="640" height="520" fill="url(#grida)"/><ellipse cx="320" cy="270" rx="260" ry="190" fill="url(#ra)"/>
+<rect x="70" y="90" width="300" height="210" rx="16" fill="url(#pa)" stroke="#39FF14" stroke-opacity=".55" stroke-width="1.5"/><path d="M70 130h300" stroke="#39FF14" stroke-opacity=".35"/><circle cx="94" cy="110" r="5" fill="#39FF14"/><circle cx="114" cy="110" r="5" fill="#087FFF"/>
+<text x="96" y="190" font-family="JetBrains Mono,Consolas,monospace" font-size="18" fill="#39FF14">const future =</text><text x="96" y="222" font-family="JetBrains Mono,Consolas,monospace" font-size="18" fill="#A5B2BD">  build(ideas);</text><text x="96" y="254" font-family="JetBrains Mono,Consolas,monospace" font-size="18" fill="#087FFF">deploy(future);</text>
+<rect x="330" y="190" width="240" height="220" rx="16" fill="url(#pa)" stroke="#39FF14" stroke-opacity=".55" stroke-width="1.5"/><path d="M360 370l50-70 40 40 60-90" stroke="url(#ga)" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#fa)"/><rect x="360" y="214" width="90" height="10" rx="5" fill="#39FF14" fill-opacity=".6"/>
+<g filter="url(#fa)"><circle cx="190" cy="390" r="52" fill="url(#pa)" stroke="url(#ga)" stroke-width="3"/></g><circle cx="190" cy="380" r="15" fill="url(#ga)"/><path d="M162 412a28 22 0 0 1 56 0z" fill="url(#ga)"/></svg>

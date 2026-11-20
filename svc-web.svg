@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-hidden="true"><defs>
+<linearGradient id="gs0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#00D084"/></linearGradient>
+<linearGradient id="bs0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087FFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+<linearGradient id="ps0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2A33"/><stop offset="1" stop-color="#071A21"/></linearGradient>
+<radialGradient id="rs0" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#39FF14" stop-opacity=".35"/><stop offset="1" stop-color="#39FF14" stop-opacity="0"/></radialGradient>
+<radialGradient id="bgs0" cx=".3" cy="1" r="1.1"><stop offset="0" stop-color="#0A3A1C"/><stop offset=".55" stop-color="#07131A"/><stop offset="1" stop-color="#03080B"/></radialGradient>
+<filter id="fs0" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grids0" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#39FF14" stroke-opacity=".07"/></pattern>
+</defs><ellipse cx="320" cy="210" rx="230" ry="150" fill="url(#rs0)"/><rect x="130" y="80" width="380" height="240" rx="16" fill="url(#ps0)" stroke="#39FF14" stroke-opacity=".55" stroke-width="1.5"/><path d="M130 120h380" stroke="#39FF14" stroke-opacity=".35"/><circle cx="155" cy="100" r="5" fill="#39FF14"/><circle cx="175" cy="100" r="5" fill="#087FFF"/><circle cx="195" cy="100" r="5" fill="#A5B2BD"/>
+  <g filter="url(#fs0)"><circle cx="260" cy="225" r="62" fill="none" stroke="url(#gs0)" stroke-width="3"/><ellipse cx="260" cy="225" rx="26" ry="62" fill="none" stroke="url(#gs0)" stroke-width="2.5"/><path d="M198 225h124M210 195h100M210 255h100" stroke="url(#gs0)" stroke-width="2.5" fill="none"/></g>
+  <rect x="352" y="160" width="124" height="10" rx="5" fill="#39FF14" fill-opacity=".7"/><rect x="352" y="184" width="96" height="10" rx="5" fill="#A5B2BD" fill-opacity=".35"/><rect x="352" y="208" width="110" height="10" rx="5" fill="#A5B2BD" fill-opacity=".35"/><rect x="352" y="250" width="70" height="28" rx="14" fill="url(#gs0)"/></svg>
